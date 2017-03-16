@@ -1,0 +1,27 @@
+{
+  "name": "forms-angular-example",
+  "description": "Example forms-angular project",
+  "dependencies": {
+    "jquery":"*"
+  },
+  "not-dependencies": {
+    "forms-angular": "*",
+    "angular-route": "*"
+  },
+  "keywords": [
+    "forms-angular",
+    "angular",
+    "forms"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "angular": "1.6.3"
+  }  
+}

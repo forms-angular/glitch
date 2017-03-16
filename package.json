@@ -1,0 +1,28 @@
+{
+	"name": "forms-angular",
+	"version": "0.1.0",
+	"description": "A demo of forms-angular",
+	"main": "server.js",
+	"scripts": {
+		"start": "bower install && node server.js"
+	},
+	"dependencies": {
+    "express": "4.14.1",
+    "body-parser": "1.16.0",    
+    "mongoose": "4.8.1",
+    "forms-angular":"*",
+    "kerberos": "0.0.22",
+    "bower": "*"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"keywords": [
+    "mongo",
+    "mongoose",
+    "CRUD",
+    "forms",
+    "angular"
+	],
+	"license": "MIT"
+}
