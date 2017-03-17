@@ -1,9 +1,11 @@
+<div class="col-md-10 col-md-offset-1">
     <p>
       Quick demo of how to use <a href="https://www.forms-angular.org" target="_blank">forms-angular</a> from Glitch.
     </p>
     <p>
       Below there are a couple of (very simple) example models, but they can easily be extended.  See <a href="https://www.forms-angular.org/#/b_enhanced_schema/new" target="_blank">here</a> for a more complex example.
     </p>
+    <div class="col-md-3 col-md-offset-1">
     <table class="table">
         <tr ng-repeat="model in models | orderBy:'resourceName'">
             <td>{{model.resourceName | titleCase}}</td>
@@ -11,4 +13,5 @@
             <td><a ng-href="/#/data/{{model.resourceName}}">List</a></td>
         </tr>
     </table>
-    <hr />
+    </div>
+</div>
